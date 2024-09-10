@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="personal">
+      <div class="txt">
+        <img src="images/image-jeremy.png" alt="image-jeremy" />
+
+        <div class="person-name">
+          <span> Report for </span>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+
+      <div class="methods">
+        <ul>
+          <li class="daily">Daily</li>
+          <li class="week active">Weekly</li>
+          <li class="month">Monthly</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info">
+      <div class="row weekly">
+        <div class="hidden">
+          <div class="col orange">
+            <img src="images/icon-work.svg" alt="icon" />
+            <div class="box">
+              <div class="stats">
+                <span class="name">Work</span>
+                <div class="three-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <h2 class="hour">32hrs</h2>
+              <span class="sub-hour">Previous - 36hrs</span>
+            </div>
+          </div>
+        </div>
+        <div class="hidden">
+          <div class="col blue">
+            <img src="images/icon-play.svg" alt="icon" />
+            <div class="box">
+              <div class="stats">
+                <span class="name">Play</span>
+                <div class="three-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <h2 class="hour">10hrs</h2>
+              <span class="sub-hour">Previous - 8hrs</span>
+            </div>
+          </div>
+        </div>
+        <div class="hidden">
+          <div class="col red">
+            <img src="images/icon-study.svg" alt="icon" />
+            <div class="box">
+              <div class="stats">
+                <span class="name">Study</span>
+                <div class="three-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <h2 class="hour">4hrs</h2>
+              <span class="sub-hour">Previous - 7hrs</span>
+            </div>
+          </div>
+        </div>
+        <div class="hidden">
+          <div class="col green">
+            <img src="images/icon-exercise.svg" alt="icon" />
+            <div class="box">
+              <div class="stats">
+                <span class="name">Exercise</span>
+                <div class="three-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <h2 class="hour">4hrs</h2>
+              <span class="sub-hour">Previous - 5hrs</span>
+            </div>
+          </div>
+        </div>
+        <div class="hidden">
+          <div class="col violet">
+            <img src="images/icon-social.svg" alt="icon" />
+            <div class="box">
+              <div class="stats">
+                <span class="name">Social</span>
+                <div class="three-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <h2 class="hour">5hrs</h2>
+              <span class="sub-hour">Previous - 10hrs</span>
+            </div>
+          </div>
+        </div>
+        <div class="hidden">
+          <div class="col yellow">
+            <img src="images/icon-self-care.svg" alt="icon" />
+            <div class="box">
+              <div class="stats">
+                <span class="name">Self Care</span>
+                <div class="three-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <h2 class="hour">2hrs</h2>
+              <span class="sub-hour">Previous - 2hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
